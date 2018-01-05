@@ -1,0 +1,6 @@
+{
+	"ImportPath": "github.com/daticahealth/healthcheck-app",
+	"GoVersion": "go1.9",
+	"GodepVersion": "v62",
+	"Deps": []
+}
