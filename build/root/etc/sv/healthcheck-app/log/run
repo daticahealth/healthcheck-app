@@ -1,7 +1,8 @@
 #!/bin/sh -e
 exec 2>&1
 
-LOGDIR="/data/log/container/healthcheckapp"
+APPNAME=healthcheckapp
+LOGDIR=/data/log/container/${APPNAME}
 LOGUSER=syslog
 
 if [ ! -e "${LOGDIR}" ]; then
